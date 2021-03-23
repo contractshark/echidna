@@ -1,23 +1,23 @@
 ---
-extends: default
-
 rules:
-  line-length: disable
+  # 80 chars should be enough, but don't fail if a line is longer
+  line-length:
+    max: 80
+    level: warning
   truthy: disable
-  braces: { min-spaces-inside: 0, max-spaces-inside: 1 }
-  brackets: { min-spaces-inside: 0, max-spaces-inside: 1 }
+  braces: disable
   colons: { max-spaces-before: 0, max-spaces-after: 1 }
   commas: { max-spaces-before: 0, min-spaces-after: 0, max-spaces-after: 1 }
   document-start:
-    level: error
+    level: warning
   comments-indentation:
     level: warning
   comments:
     level: warning
     require-starting-space: true
-    min-spaces-from-content: 1
+    min-spaces-from-content: 2
   indentation:
-    level: error
+    level: warning
     spaces: 2
     indent-sequences: true
   new-lines:

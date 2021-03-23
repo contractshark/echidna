@@ -1,6 +1,6 @@
 # Echidna GitHub Action Workflow
 
-## Install 
+## Install
 
 ```bash
 #!/bin/bash

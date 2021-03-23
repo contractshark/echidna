@@ -1,0 +1,22 @@
+{
+  "name": "echindna-ci",
+  "version": "1.0.0",
+  "description": "github action workflow",
+  "files": [
+    "echindna*"
+  ],
+  "scripts": {
+    "lint": "sh lint.sh && exit 0",
+    "format": "npx prettier --config .prettierrc.json --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contractshark/echidna.git"
+  },
+  "author": "SEE CONTRIBUTORS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contractshark/echidna/issues"
+  },
+  "homepage": "https://github.com/contractshark/echidna#readme"
+}

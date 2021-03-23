@@ -3,8 +3,8 @@ name: echidna
 on:
   push:
     paths:
-      - "**.sol"
-      - ".github/workflows/echidna.action.yml.yml"
+      - '**.sol'
+      - '.github/workflows/echidna.action.yml.yml'
 
 jobs:
   echidna:
